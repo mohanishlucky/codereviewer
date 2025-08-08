@@ -1,22 +1,18 @@
-What Prism.js Does:
-Adds color and style to code blocks based on the language (like JS, HTML, Python, etc.).
+# 🤖 AI Code Reviewer
 
-Works in the browser (client-side).
+An AI-powered code review tool that helps developers get instant feedback on their code. This project uses **Google Gemini API** to analyze and suggest improvements for JavaScript/JSX code.
 
-Very customizable — you can choose which languages and plugins to include
+## 🚀 Features
 
+- 💡 Real-time code editing with syntax highlighting
+- 🤖 AI-generated reviews using Gemini Pro
+- 🔗 Backend-Frontend communication via Axios
+- 🌈 Clean UI with PrismJS and React
 
+## 🛠️ Tech Stack
 
-You're using a <pre> tag, which is meant to preserve formatting and whitespace — great for displaying code!
-
-But for Prism.js (or any code highlighter) to work, you need to include a <code> block inside the <pre> and add the language class to it.
-
-<pre>
-  <code class="language-javascript">
-{`function greet(name) {
-  console.log("Hello, " + name);
-}`}
-  </code>
-</pre>
-
+- **Frontend:** React, PrismJS, react-simple-code-editor
+- **Backend:** Node.js, Express
+- **AI:** Gemini AI
+- **Others:** Axios, dotenv, CORS
 
